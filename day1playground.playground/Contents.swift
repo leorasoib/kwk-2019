@@ -52,12 +52,59 @@
 //    print("incorrect")
 //}
 
+//conditional
+//var gitHub = "rocks"
+//if gitHub == "rocks"{
+//    print("congrats, ya boss")
+//}
+//else {
+//    print("nice try, you gotta do it again though")
+//}
 
-var gitHub = "rocks"
-if gitHub == "rocks"{
-    print("congrats, ya boss")
+//funtions
+func walkDog(numberOfDogs : Int) -> Int{
+   let walkLength = numberOfDogs * 15
+    return walkLength
 }
-else {
-    print("nice try, you gotta do it again though")
-}
+let minutesToWalk = (walkDog(numberOfDogs: 7))
+print("You're walking that many dogs? That'll take \(minutesToWalk) minutes.")
 
+func makeCereal(){
+    print("")
+    print("1. Get cereal")
+    print("2. Get milk and bowl")
+    print("3. Pour cereal")
+    print("4. Pour milk")
+    print("5. Enjoy with spoon")
+    
+}
+makeCereal()
+
+func wakeUp(){
+    print("")
+    print("1. Set alarm")
+    print("2. Stop alarm")
+    print("3. Go back to sleep")
+    print("")
+    
+}
+wakeUp()
+
+func hello(name : String){
+    print("Hello, \(name)")
+}
+hello(name: "Leora")
+hello(name: "Alexa")
+hello(name: "Gus")
+
+
+var roleModels = ["RBG", "Elizabeth Warren", "My mom", "Malala", "Mae Jemison", "Alex"]
+
+roleModels[2]
+roleModels[2] = "My family"
+roleModels.append("my dog")
+print (roleModels)
+roleModels.remove(at: 6)
+print (roleModels)
+
+//.append to add, .remove(at: 0) to remove
