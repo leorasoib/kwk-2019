@@ -41,13 +41,23 @@
 //}
 //
 
-var faveFood = "pizza"
-if faveFood == "pizza" {
-    print("Mmmm cheesy")
-}
-else if faveFood == "donuts" {
-    print("are you a krispy kreme or a dunkin donuts person?")
+//var faveFood = "pizza"
+//if faveFood == "pizza" {
+//    print("Mmmm cheesy")
+//}
+//else if faveFood == "donuts" {
+//    print("are you a krispy kreme or a dunkin donuts person?")
+//}
+//else {
+//    print("incorrect")
+//}
+
+
+var gitHub = "rocks"
+if gitHub == "rocks"{
+    print("congrats, ya boss")
 }
 else {
-    print("incorrect")
+    print("nice try, you gotta do it again though")
 }
+
