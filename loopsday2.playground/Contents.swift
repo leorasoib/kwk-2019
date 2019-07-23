@@ -20,3 +20,12 @@ var familyTree = ["Miriam": "Mom", "Israel": "Dad", "Aaron": "Brother","Boscoe":
 for (relative, relation) in familyTree {
     print("\(relative) is my \(relation)" )
 }
+
+for _ in 1...9 {
+    print("Hello")
+}
+
+var animals = ["red panda", "penguin", "polar bear", "Leora"]
+for animal in 0..<animals.count{
+    print("I love \(animals[animal])")
+}
